@@ -1,0 +1,94 @@
+body{
+	font-family: sans-serif;
+}
+
+p{
+	clear: both;
+	float: left;
+	width: 35%;
+	padding: 1em;
+	margin-left: 25%;
+	margin-top: 30px;
+	border-radius: 30px 30px;
+	background-color: rgba(0,200,0,0.15);
+	border: 2px solid orange;
+	opacity: 1;
+}
+
+.searchBox{
+	border: 2px solid orange;
+	height: 17px;
+	width: 14px;
+	padding: 1em;
+	top: 16px;
+	left: 570px;
+	margin: 0px;
+	position: absolute;
+	border-radius: 30px 30px;
+	background-color: rgba(0,200,0,0.15);
+	transition: all 300ms  0ms;
+}
+
+
+
+.close{
+	opacity: 0;
+	position: absolute;
+	top: 20px;
+	left: 780px;
+	font-size: small;
+	cursor: pointer;
+	/*z-index: 10;*/
+}
+
+.expanded{
+	transition: all 300ms  0ms;
+	width: 200px;
+}
+
+.handle{
+	position: absolute;
+	top: 50px;
+	left: 602px;
+	font-size: 3.5em;
+	transform: rotate(-10deg) ;
+	color: orange;
+}
+
+input[type='text']{
+	outline: none;
+}
+
+.row{
+	clear: both;
+	width: 75%;
+	margin: 75px auto;
+}
+
+.random{
+	float: left;
+	width: 100px;
+	margin: 10px;
+	margin-left: 30%;
+	padding: .75em;
+	border: 2px solid orange;
+	border-radius: 30px;
+	background-color: rgba(0,200,0,0.15); 
+}
+
+a{text-decoration: none;
+	color: black;}
+
+
+.post{
+	margin: 10px;
+	padding: 1em;
+	background-color: rgba(0,200,0,0.15);
+	border: 2px solid orange;
+	border-radius: 30px;
+	color: black;
+}
+
+.post:hover{
+	background-color: rgba(0,200,0,0.05); 
+}
